@@ -1,0 +1,754 @@
+2014-06-24 14:39:31,058    DEBUG txn.-1219266240 - new transaction
+2014-06-24 14:39:31,059    DEBUG twsfolders-test - start test
+2014-06-24 14:39:31,062    DEBUG txn.-1219266240 - new transaction
+2014-06-24 14:39:31,063    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e7f0ec with url:/>' by validator:  <function root_folder_validator at 0xb6e6ca04> 
+2014-06-24 14:39:31,063    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e7f0ec with url:/>' 
+2014-06-24 14:39:31,063    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e7f0ec with url:/>'
+2014-06-24 14:39:31,063    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e7f0ec with url:/>'
+2014-06-24 14:39:31,064    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 14:39:31,064    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 14:39:31,064    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 14:39:31,065    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 14:39:31,065    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 14:39:31,065    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 14:39:31,065    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 14:39:31,066    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 14:39:31,066    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 14:39:31,067    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 14:39:31,067    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e7f4ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 14:39:31,067    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e7f4ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 14:39:31,068    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e7f2ec with url:/testService2/testobject>' 
+2014-06-24 14:39:31,068    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e7f22c with url:/testService2>' 
+2014-06-24 14:39:31,068    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e7f22c with url:/testService2>'
+2014-06-24 14:39:31,068    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e7f22c with url:/testService2>'
+2014-06-24 14:39:31,068    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 14:39:31,069    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e7f4ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 14:39:31,069    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e7f4ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 14:39:31,069    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e7f2ec with url:/testService2/testobject>' 
+2014-06-24 14:39:31,069    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e7f22c with url:/testService2>' 
+2014-06-24 14:39:31,070    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e7f22c with url:/testService2>'
+2014-06-24 14:39:31,070    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e7f22c with url:/testService2>'
+2014-06-24 14:39:31,070    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e7f3ac with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6e6ca04> 
+2014-06-24 14:39:31,070    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e7f3ac with url:/testService2/testobject/testobject2>' 
+2014-06-24 14:39:31,070    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e7f2ec with url:/testService2/testobject>' 
+2014-06-24 14:39:31,071    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e7f22c with url:/testService2>' 
+2014-06-24 14:39:31,071    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e7f0ec with url:/>' 
+2014-06-24 14:39:31,071    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e7f0ec with url:/>'
+2014-06-24 14:39:31,071    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e7f0ec with url:/>'
+2014-06-24 14:39:31,071    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e7f0ec with url:/>' by validator:  <function root_folder_validator at 0xb6e6ca04> 
+2014-06-24 14:39:31,072    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e7f0ec with url:/>' 
+2014-06-24 14:39:31,072    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e7f0ec with url:/>'
+2014-06-24 14:39:31,073    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e7f0ec with url:/>'
+2014-06-24 14:39:31,073    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e7f0ec with url:/>' by validator:  <function root_folder_validator at 0xb6e6ca04> 
+2014-06-24 14:39:31,073    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e7f0ec with url:/>' 
+2014-06-24 14:39:31,073    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e7f0ec with url:/>'
+2014-06-24 14:39:31,073    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e7f0ec with url:/>'
+2014-06-24 14:39:31,074    DEBUG root - fdfdsf fdsfsdf
+2014-06-24 14:39:31,074    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 14:39:31,074    ERROR twsfolders-test - this is an error
+2014-06-24 14:39:31,075     INFO twsfolders-test - finish
+2014-06-24 14:39:31,075  WARNING twsfolders-test - this is a worning
+2014-06-24 14:39:31,075  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 14:39:31,075    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 14:39:31,076    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 14:39:31,076    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 14:39:31,076    DEBUG twsfolders-test - commit transaction
+2014-06-24 14:39:31,079    DEBUG txn.-1219266240 - commit <Connection at b6d7cdcc>
+2014-06-24 14:39:31,079    DEBUG txn.-1219266240 - commit
+2014-06-24 14:39:31,079    DEBUG twsfolders-test - close connection
+2014-06-24 14:39:31,079    DEBUG txn.-1219266240 - new transaction
+2014-06-24 14:39:31,080    DEBUG txn.-1219266240 - abort
+2014-06-24 16:03:20,828    DEBUG txn.-1219688128 - new transaction
+2014-06-24 16:03:20,828    DEBUG twsfolders-test - start test
+2014-06-24 16:03:20,829    DEBUG txn.-1219688128 - new transaction
+2014-06-24 16:03:20,829    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e1846c with url:/>' by validator:  <function root_folder_validator at 0xb6e05a3c> 
+2014-06-24 16:03:20,829    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e1846c with url:/>' 
+2014-06-24 16:03:20,829    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e1846c with url:/>'
+2014-06-24 16:03:20,829    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e1846c with url:/>'
+2014-06-24 16:03:20,829    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:03:20,830    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:03:20,830    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:03:20,830    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:03:20,830    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:03:20,830    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:03:20,830    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:03:20,830    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:03:20,830    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:03:20,831    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:03:20,831    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e182ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:03:20,831    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e182ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:03:20,831    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e1842c with url:/testService2/testobject>' 
+2014-06-24 16:03:20,832    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e1826c with url:/testService2>' 
+2014-06-24 16:03:20,832    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e1826c with url:/testService2>'
+2014-06-24 16:03:20,832    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e1826c with url:/testService2>'
+2014-06-24 16:03:20,832    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:03:20,832    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e182ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:03:20,832    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e182ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:03:20,832    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e1842c with url:/testService2/testobject>' 
+2014-06-24 16:03:20,833    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e1826c with url:/testService2>' 
+2014-06-24 16:03:20,833    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e1826c with url:/testService2>'
+2014-06-24 16:03:20,833    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e1826c with url:/testService2>'
+2014-06-24 16:03:20,833    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e1806c with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6e05a3c> 
+2014-06-24 16:03:20,833    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e1806c with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:03:20,833    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e1842c with url:/testService2/testobject>' 
+2014-06-24 16:03:20,833    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e1826c with url:/testService2>' 
+2014-06-24 16:03:20,833    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e1846c with url:/>' 
+2014-06-24 16:03:20,834    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e1846c with url:/>'
+2014-06-24 16:03:20,834    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e1846c with url:/>'
+2014-06-24 16:03:20,834    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e1846c with url:/>' by validator:  <function root_folder_validator at 0xb6e05a3c> 
+2014-06-24 16:03:20,834    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e1846c with url:/>' 
+2014-06-24 16:03:20,834    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e1846c with url:/>'
+2014-06-24 16:03:20,834    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e1846c with url:/>'
+2014-06-24 16:03:20,834    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e1846c with url:/>' by validator:  <function root_folder_validator at 0xb6e05a3c> 
+2014-06-24 16:03:20,835    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e1846c with url:/>' 
+2014-06-24 16:03:20,835    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e1846c with url:/>'
+2014-06-24 16:03:20,835    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e1846c with url:/>'
+2014-06-24 16:03:20,835    DEBUG root - fdfdsf fdsfsdf
+2014-06-24 16:03:20,835    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:03:20,835    ERROR twsfolders-test - this is an error
+2014-06-24 16:03:20,835     INFO twsfolders-test - finish
+2014-06-24 16:03:20,836  WARNING twsfolders-test - this is a worning
+2014-06-24 16:03:20,836  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:03:20,836    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:03:20,837    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:03:20,837    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:03:20,837    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:03:20,839    DEBUG txn.-1219688128 - commit <Connection at b6d15e0c>
+2014-06-24 16:03:20,840    DEBUG txn.-1219688128 - commit
+2014-06-24 16:03:20,840    DEBUG twsfolders-test - close connection
+2014-06-24 16:03:20,840    DEBUG txn.-1219688128 - new transaction
+2014-06-24 16:03:20,840    DEBUG txn.-1219688128 - abort
+2014-06-24 16:04:10,121    DEBUG txn.-1219524288 - new transaction
+2014-06-24 16:04:10,121    DEBUG twsfolders-test - start test
+2014-06-24 16:04:10,122    DEBUG txn.-1219524288 - new transaction
+2014-06-24 16:04:10,123    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e405ec with url:/>' by validator:  <function root_folder_validator at 0xb6e2da3c> 
+2014-06-24 16:04:10,123    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e405ec with url:/>' 
+2014-06-24 16:04:10,123    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e405ec with url:/>'
+2014-06-24 16:04:10,123    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e405ec with url:/>'
+2014-06-24 16:04:10,123    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:04:10,123    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:04:10,124    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:04:10,124    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:04:10,124    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:04:10,124    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:04:10,125    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:04:10,125    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:04:10,125    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:04:10,126    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:04:10,126    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e401ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:04:10,126    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e401ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:04:10,126    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e400ac with url:/testService2/testobject>' 
+2014-06-24 16:04:10,126    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e4022c with url:/testService2>' 
+2014-06-24 16:04:10,127    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e4022c with url:/testService2>'
+2014-06-24 16:04:10,127    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e4022c with url:/testService2>'
+2014-06-24 16:04:10,127    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:04:10,127    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e401ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:04:10,127    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e401ac with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:04:10,127    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e400ac with url:/testService2/testobject>' 
+2014-06-24 16:04:10,127    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e4022c with url:/testService2>' 
+2014-06-24 16:04:10,128    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e4022c with url:/testService2>'
+2014-06-24 16:04:10,128    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e4022c with url:/testService2>'
+2014-06-24 16:04:10,128    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e4042c with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6e2da3c> 
+2014-06-24 16:04:10,128    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e4042c with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:04:10,128    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e400ac with url:/testService2/testobject>' 
+2014-06-24 16:04:10,128    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e4022c with url:/testService2>' 
+2014-06-24 16:04:10,128    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e405ec with url:/>' 
+2014-06-24 16:04:10,129    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e405ec with url:/>'
+2014-06-24 16:04:10,129    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e405ec with url:/>'
+2014-06-24 16:04:10,129    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e405ec with url:/>' by validator:  <function root_folder_validator at 0xb6e2da3c> 
+2014-06-24 16:04:10,129    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e405ec with url:/>' 
+2014-06-24 16:04:10,129    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e405ec with url:/>'
+2014-06-24 16:04:10,129    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e405ec with url:/>'
+2014-06-24 16:04:10,130    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e405ec with url:/>' by validator:  <function root_folder_validator at 0xb6e2da3c> 
+2014-06-24 16:04:10,130    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e405ec with url:/>' 
+2014-06-24 16:04:10,130    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e405ec with url:/>'
+2014-06-24 16:04:10,130    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e405ec with url:/>'
+2014-06-24 16:05:00,161    DEBUG txn.-1219389120 - new transaction
+2014-06-24 16:05:00,162    DEBUG twsfolders-test - start test
+2014-06-24 16:05:00,162    DEBUG txn.-1219389120 - new transaction
+2014-06-24 16:05:00,163    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e615ec with url:/>' by validator:  <function root_folder_validator at 0xb6e4ea3c> 
+2014-06-24 16:05:00,163    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e615ec with url:/>' 
+2014-06-24 16:05:00,163    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e615ec with url:/>'
+2014-06-24 16:05:00,163    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e615ec with url:/>'
+2014-06-24 16:05:00,163    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:05:00,163    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:05:00,164    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:05:00,164    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:05:00,164    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:05:00,164    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:05:00,164    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:05:00,164    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:05:00,164    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:05:00,165    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:05:00,165    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e6102c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:05:00,165    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e6102c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:05:00,165    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e6142c with url:/testService2/testobject>' 
+2014-06-24 16:05:00,165    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e6122c with url:/testService2>' 
+2014-06-24 16:05:00,166    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e6122c with url:/testService2>'
+2014-06-24 16:05:00,166    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e6122c with url:/testService2>'
+2014-06-24 16:05:00,166    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:05:00,166    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e6102c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:05:00,166    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e6102c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:05:00,166    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e6142c with url:/testService2/testobject>' 
+2014-06-24 16:05:00,166    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e6122c with url:/testService2>' 
+2014-06-24 16:05:00,167    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e6122c with url:/testService2>'
+2014-06-24 16:05:00,167    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e6122c with url:/testService2>'
+2014-06-24 16:05:00,168    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e6116c with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6e4ea3c> 
+2014-06-24 16:05:00,168    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e6116c with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:05:00,168    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e6142c with url:/testService2/testobject>' 
+2014-06-24 16:05:00,168    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e6122c with url:/testService2>' 
+2014-06-24 16:05:00,168    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e615ec with url:/>' 
+2014-06-24 16:05:00,168    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e615ec with url:/>'
+2014-06-24 16:05:00,168    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e615ec with url:/>'
+2014-06-24 16:05:00,169    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e615ec with url:/>' by validator:  <function root_folder_validator at 0xb6e4ea3c> 
+2014-06-24 16:05:00,169    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e615ec with url:/>' 
+2014-06-24 16:05:00,169    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e615ec with url:/>'
+2014-06-24 16:05:00,169    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e615ec with url:/>'
+2014-06-24 16:05:00,169    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e615ec with url:/>' by validator:  <function root_folder_validator at 0xb6e4ea3c> 
+2014-06-24 16:05:00,169    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e615ec with url:/>' 
+2014-06-24 16:05:00,169    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e615ec with url:/>'
+2014-06-24 16:05:00,170    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e615ec with url:/>'
+2014-06-24 16:05:37,203    DEBUG txn.-1218926272 - new transaction
+2014-06-24 16:05:37,203    DEBUG twsfolders-test - start test
+2014-06-24 16:05:37,204    DEBUG txn.-1218926272 - new transaction
+2014-06-24 16:05:37,204    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6ed20ac with url:/>' by validator:  <function root_folder_validator at 0xb6ebfa3c> 
+2014-06-24 16:05:37,205    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ed20ac with url:/>' 
+2014-06-24 16:05:37,205    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6ed20ac with url:/>'
+2014-06-24 16:05:37,205    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6ed20ac with url:/>'
+2014-06-24 16:05:37,205    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:05:37,205    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:05:37,205    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:05:37,206    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:05:37,206    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:05:37,206    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:05:37,206    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:05:37,206    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:05:37,206    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:05:37,207    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:05:37,207    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6ed242c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:05:37,207    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6ed242c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:05:37,207    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ed22ac with url:/testService2/testobject>' 
+2014-06-24 16:05:37,208    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6ed222c with url:/testService2>' 
+2014-06-24 16:05:37,208    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6ed222c with url:/testService2>'
+2014-06-24 16:05:37,208    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6ed222c with url:/testService2>'
+2014-06-24 16:05:37,208    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:05:37,208    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6ed242c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:05:37,208    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6ed242c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:05:37,208    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ed22ac with url:/testService2/testobject>' 
+2014-06-24 16:05:37,209    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6ed222c with url:/testService2>' 
+2014-06-24 16:05:37,209    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6ed222c with url:/testService2>'
+2014-06-24 16:05:37,209    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6ed222c with url:/testService2>'
+2014-06-24 16:05:37,209    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6ed232c with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6ebfa3c> 
+2014-06-24 16:05:37,209    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ed232c with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:05:37,209    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ed22ac with url:/testService2/testobject>' 
+2014-06-24 16:05:37,209    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6ed222c with url:/testService2>' 
+2014-06-24 16:05:37,210    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ed20ac with url:/>' 
+2014-06-24 16:05:37,210    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6ed20ac with url:/>'
+2014-06-24 16:05:37,210    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6ed20ac with url:/>'
+2014-06-24 16:05:37,210    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6ed20ac with url:/>' by validator:  <function root_folder_validator at 0xb6ebfa3c> 
+2014-06-24 16:05:37,210    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ed20ac with url:/>' 
+2014-06-24 16:05:37,210    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6ed20ac with url:/>'
+2014-06-24 16:05:37,210    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6ed20ac with url:/>'
+2014-06-24 16:05:37,210    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6ed20ac with url:/>' by validator:  <function root_folder_validator at 0xb6ebfa3c> 
+2014-06-24 16:05:37,211    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ed20ac with url:/>' 
+2014-06-24 16:05:37,211    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6ed20ac with url:/>'
+2014-06-24 16:05:37,211    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6ed20ac with url:/>'
+2014-06-24 16:06:35,165    DEBUG txn.-1218746048 - new transaction
+2014-06-24 16:06:35,166    DEBUG twsfolders-test - start test
+2014-06-24 16:06:35,167    DEBUG txn.-1218746048 - new transaction
+2014-06-24 16:06:35,167    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6efe62c with url:/>' by validator:  <function root_folder_validator at 0xb6eeba3c> 
+2014-06-24 16:06:35,167    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efe62c with url:/>' 
+2014-06-24 16:06:35,167    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6efe62c with url:/>'
+2014-06-24 16:06:35,167    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6efe62c with url:/>'
+2014-06-24 16:06:35,167    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:06:35,167    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:06:35,168    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:06:35,168    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:06:35,168    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:06:35,168    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:06:35,168    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:06:35,168    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:06:35,168    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:06:35,169    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:06:35,169    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6efe2ec with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:06:35,169    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6efe2ec with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:06:35,169    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efe02c with url:/testService2/testobject>' 
+2014-06-24 16:06:35,170    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6efe5ec with url:/testService2>' 
+2014-06-24 16:06:35,170    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6efe5ec with url:/testService2>'
+2014-06-24 16:06:35,170    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6efe5ec with url:/testService2>'
+2014-06-24 16:06:35,170    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:06:35,170    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6efe2ec with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:06:35,170    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6efe2ec with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:06:35,170    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efe02c with url:/testService2/testobject>' 
+2014-06-24 16:06:35,170    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6efe5ec with url:/testService2>' 
+2014-06-24 16:06:35,171    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6efe5ec with url:/testService2>'
+2014-06-24 16:06:35,171    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6efe5ec with url:/testService2>'
+2014-06-24 16:06:35,171    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6efe12c with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6eeba3c> 
+2014-06-24 16:06:35,171    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efe12c with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:06:35,171    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efe02c with url:/testService2/testobject>' 
+2014-06-24 16:06:35,171    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6efe5ec with url:/testService2>' 
+2014-06-24 16:06:35,172    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efe62c with url:/>' 
+2014-06-24 16:06:35,172    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6efe62c with url:/>'
+2014-06-24 16:06:35,172    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6efe62c with url:/>'
+2014-06-24 16:06:35,172    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6efe62c with url:/>' by validator:  <function root_folder_validator at 0xb6eeba3c> 
+2014-06-24 16:06:35,172    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efe62c with url:/>' 
+2014-06-24 16:06:35,173    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6efe62c with url:/>'
+2014-06-24 16:06:35,173    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6efe62c with url:/>'
+2014-06-24 16:06:35,173    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6efe62c with url:/>' by validator:  <function root_folder_validator at 0xb6eeba3c> 
+2014-06-24 16:06:35,173    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efe62c with url:/>' 
+2014-06-24 16:06:35,173    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6efe62c with url:/>'
+2014-06-24 16:06:35,173    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6efe62c with url:/>'
+2014-06-24 16:06:46,651    DEBUG txn.-1218881216 - new transaction
+2014-06-24 16:06:46,652    DEBUG twsfolders-test - start test
+2014-06-24 16:06:46,652    DEBUG txn.-1218881216 - new transaction
+2014-06-24 16:06:46,652    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6edd06c with url:/>' by validator:  <function root_folder_validator at 0xb6ecaa3c> 
+2014-06-24 16:06:46,653    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6edd06c with url:/>' 
+2014-06-24 16:06:46,653    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6edd06c with url:/>'
+2014-06-24 16:06:46,653    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6edd06c with url:/>'
+2014-06-24 16:06:46,653    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:06:46,653    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:06:46,653    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:06:46,653    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:06:46,654    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:06:46,654    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:06:46,654    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:06:46,654    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:06:46,654    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:06:46,654    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:06:46,655    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6edd3ec with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:06:46,655    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6edd3ec with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:06:46,655    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6edd26c with url:/testService2/testobject>' 
+2014-06-24 16:06:46,655    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6edd1ac with url:/testService2>' 
+2014-06-24 16:06:46,655    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6edd1ac with url:/testService2>'
+2014-06-24 16:06:46,655    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6edd1ac with url:/testService2>'
+2014-06-24 16:06:46,656    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:06:46,656    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6edd3ec with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:06:46,656    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6edd3ec with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:06:46,656    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6edd26c with url:/testService2/testobject>' 
+2014-06-24 16:06:46,656    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6edd1ac with url:/testService2>' 
+2014-06-24 16:06:46,656    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6edd1ac with url:/testService2>'
+2014-06-24 16:06:46,656    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6edd1ac with url:/testService2>'
+2014-06-24 16:06:46,657    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6edd2ec with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6ecaa3c> 
+2014-06-24 16:06:46,657    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6edd2ec with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:06:46,657    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6edd26c with url:/testService2/testobject>' 
+2014-06-24 16:06:46,657    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6edd1ac with url:/testService2>' 
+2014-06-24 16:06:46,657    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6edd06c with url:/>' 
+2014-06-24 16:06:46,657    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6edd06c with url:/>'
+2014-06-24 16:06:46,657    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6edd06c with url:/>'
+2014-06-24 16:06:46,658    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6edd06c with url:/>' by validator:  <function root_folder_validator at 0xb6ecaa3c> 
+2014-06-24 16:06:46,658    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6edd06c with url:/>' 
+2014-06-24 16:06:46,658    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6edd06c with url:/>'
+2014-06-24 16:06:46,658    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6edd06c with url:/>'
+2014-06-24 16:06:46,658    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6edd06c with url:/>' by validator:  <function root_folder_validator at 0xb6ecaa3c> 
+2014-06-24 16:06:46,658    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6edd06c with url:/>' 
+2014-06-24 16:06:46,658    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6edd06c with url:/>'
+2014-06-24 16:06:46,658    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6edd06c with url:/>'
+2014-06-24 16:07:13,985    DEBUG txn.-1218991808 - new transaction
+2014-06-24 16:07:13,986    DEBUG twsfolders-test - start test
+2014-06-24 16:07:13,987    DEBUG txn.-1218991808 - new transaction
+2014-06-24 16:07:13,987    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6ec20ac with url:/>' by validator:  <function root_folder_validator at 0xb6eafa3c> 
+2014-06-24 16:07:13,987    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ec20ac with url:/>' 
+2014-06-24 16:07:13,987    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6ec20ac with url:/>'
+2014-06-24 16:07:13,987    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6ec20ac with url:/>'
+2014-06-24 16:07:13,987    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:07:13,987    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:07:13,988    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:07:13,988    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:07:13,988    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:07:13,988    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:07:13,988    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:07:13,988    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:07:13,988    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:07:13,989    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:07:13,989    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6ec246c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:07:13,989    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6ec246c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:07:13,989    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ec22ac with url:/testService2/testobject>' 
+2014-06-24 16:07:13,989    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6ec222c with url:/testService2>' 
+2014-06-24 16:07:13,989    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6ec222c with url:/testService2>'
+2014-06-24 16:07:13,990    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6ec222c with url:/testService2>'
+2014-06-24 16:07:13,990    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:07:13,990    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6ec246c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:07:13,990    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6ec246c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:07:13,990    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ec22ac with url:/testService2/testobject>' 
+2014-06-24 16:07:13,990    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6ec222c with url:/testService2>' 
+2014-06-24 16:07:13,990    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6ec222c with url:/testService2>'
+2014-06-24 16:07:13,991    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6ec222c with url:/testService2>'
+2014-06-24 16:07:13,991    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6ec232c with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6eafa3c> 
+2014-06-24 16:07:13,991    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ec232c with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:07:13,991    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ec22ac with url:/testService2/testobject>' 
+2014-06-24 16:07:13,991    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6ec222c with url:/testService2>' 
+2014-06-24 16:07:13,991    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ec20ac with url:/>' 
+2014-06-24 16:07:13,992    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6ec20ac with url:/>'
+2014-06-24 16:07:13,992    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6ec20ac with url:/>'
+2014-06-24 16:07:13,992    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6ec20ac with url:/>' by validator:  <function root_folder_validator at 0xb6eafa3c> 
+2014-06-24 16:07:13,992    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ec20ac with url:/>' 
+2014-06-24 16:07:13,992    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6ec20ac with url:/>'
+2014-06-24 16:07:13,992    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6ec20ac with url:/>'
+2014-06-24 16:07:13,992    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6ec20ac with url:/>' by validator:  <function root_folder_validator at 0xb6eafa3c> 
+2014-06-24 16:07:13,993    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6ec20ac with url:/>' 
+2014-06-24 16:07:13,993    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6ec20ac with url:/>'
+2014-06-24 16:07:13,993    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6ec20ac with url:/>'
+2014-06-24 16:07:22,914    DEBUG txn.-1218754240 - new transaction
+2014-06-24 16:07:22,915    DEBUG twsfolders-test - start test
+2014-06-24 16:07:22,915    DEBUG txn.-1218754240 - new transaction
+2014-06-24 16:07:22,916    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6efc22c with url:/>' by validator:  <function root_folder_validator at 0xb6ee9a3c> 
+2014-06-24 16:07:22,916    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efc22c with url:/>' 
+2014-06-24 16:07:22,916    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6efc22c with url:/>'
+2014-06-24 16:07:22,917    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6efc22c with url:/>'
+2014-06-24 16:07:22,917    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:07:22,917    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:07:22,917    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:07:22,917    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:07:22,918    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:07:22,918    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:07:22,918    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:07:22,918    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:07:22,918    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:07:22,919    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:07:22,919    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6efc12c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:07:22,919    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6efc12c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:07:22,920    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efc0ac with url:/testService2/testobject>' 
+2014-06-24 16:07:22,920    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6efc42c with url:/testService2>' 
+2014-06-24 16:07:22,920    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6efc42c with url:/testService2>'
+2014-06-24 16:07:22,920    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6efc42c with url:/testService2>'
+2014-06-24 16:07:22,920    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:07:22,921    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6efc12c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:07:22,921    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6efc12c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:07:22,921    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efc0ac with url:/testService2/testobject>' 
+2014-06-24 16:07:22,921    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6efc42c with url:/testService2>' 
+2014-06-24 16:07:22,921    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6efc42c with url:/testService2>'
+2014-06-24 16:07:22,922    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6efc42c with url:/testService2>'
+2014-06-24 16:07:22,922    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6efc1ac with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6ee9a3c> 
+2014-06-24 16:07:22,922    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efc1ac with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:07:22,922    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efc0ac with url:/testService2/testobject>' 
+2014-06-24 16:07:22,922    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6efc42c with url:/testService2>' 
+2014-06-24 16:07:22,923    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efc22c with url:/>' 
+2014-06-24 16:07:22,923    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6efc22c with url:/>'
+2014-06-24 16:07:22,923    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6efc22c with url:/>'
+2014-06-24 16:07:22,923    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6efc22c with url:/>' by validator:  <function root_folder_validator at 0xb6ee9a3c> 
+2014-06-24 16:07:22,923    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efc22c with url:/>' 
+2014-06-24 16:07:22,924    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6efc22c with url:/>'
+2014-06-24 16:07:22,924    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6efc22c with url:/>'
+2014-06-24 16:07:22,924    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6efc22c with url:/>' by validator:  <function root_folder_validator at 0xb6ee9a3c> 
+2014-06-24 16:07:22,924    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6efc22c with url:/>' 
+2014-06-24 16:07:22,924    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6efc22c with url:/>'
+2014-06-24 16:07:22,924    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6efc22c with url:/>'
+2014-06-24 16:09:11,802    DEBUG txn.-1219487424 - new transaction
+2014-06-24 16:09:11,803    DEBUG twsfolders-test - start test
+2014-06-24 16:09:11,803    DEBUG txn.-1219487424 - new transaction
+2014-06-24 16:09:11,803    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e4946c with url:/>' by validator:  <function root_folder_validator at 0xb6e36a3c> 
+2014-06-24 16:09:11,803    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e4946c with url:/>' 
+2014-06-24 16:09:11,804    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e4946c with url:/>'
+2014-06-24 16:09:11,804    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e4946c with url:/>'
+2014-06-24 16:09:11,804    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:09:11,804    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:09:11,804    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:09:11,804    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:09:11,804    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:11,804    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:11,805    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:09:11,805    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:09:11,805    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:09:11,805    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:09:11,806    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e4912c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:09:11,806    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e4912c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:09:11,806    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e491ac with url:/testService2/testobject>' 
+2014-06-24 16:09:11,806    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e4916c with url:/testService2>' 
+2014-06-24 16:09:11,806    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e4916c with url:/testService2>'
+2014-06-24 16:09:11,806    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e4916c with url:/testService2>'
+2014-06-24 16:09:11,806    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:09:11,807    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6e4912c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:09:11,807    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6e4912c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:09:11,807    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e491ac with url:/testService2/testobject>' 
+2014-06-24 16:09:11,807    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e4916c with url:/testService2>' 
+2014-06-24 16:09:11,807    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6e4916c with url:/testService2>'
+2014-06-24 16:09:11,807    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6e4916c with url:/testService2>'
+2014-06-24 16:09:11,807    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e493ac with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6e36a3c> 
+2014-06-24 16:09:11,807    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e493ac with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:09:11,808    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e491ac with url:/testService2/testobject>' 
+2014-06-24 16:09:11,808    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6e4916c with url:/testService2>' 
+2014-06-24 16:09:11,808    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e4946c with url:/>' 
+2014-06-24 16:09:11,808    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e4946c with url:/>'
+2014-06-24 16:09:11,808    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e4946c with url:/>'
+2014-06-24 16:09:11,808    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e4946c with url:/>' by validator:  <function root_folder_validator at 0xb6e36a3c> 
+2014-06-24 16:09:11,808    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e4946c with url:/>' 
+2014-06-24 16:09:11,808    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e4946c with url:/>'
+2014-06-24 16:09:11,809    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e4946c with url:/>'
+2014-06-24 16:09:11,809    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6e4946c with url:/>' by validator:  <function root_folder_validator at 0xb6e36a3c> 
+2014-06-24 16:09:11,809    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6e4946c with url:/>' 
+2014-06-24 16:09:11,809    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6e4946c with url:/>'
+2014-06-24 16:09:11,809    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6e4946c with url:/>'
+2014-06-24 16:09:11,809    DEBUG root - fdfdsf fdsfsdf
+2014-06-24 16:09:11,810    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:09:11,810    ERROR twsfolders-test - this is an error
+2014-06-24 16:09:11,810     INFO twsfolders-test - finish
+2014-06-24 16:09:11,810  WARNING twsfolders-test - this is a worning
+2014-06-24 16:09:11,811  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:09:26,663    DEBUG txn.-1219307200 - new transaction
+2014-06-24 16:09:26,664    DEBUG twsfolders-test - start test
+2014-06-24 16:09:26,665    DEBUG txn.-1219307200 - new transaction
+2014-06-24 16:09:26,665    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6d6d22c with url:/>' by validator:  <function root_folder_validator at 0xb6e629cc> 
+2014-06-24 16:09:26,665    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d6d22c with url:/>' 
+2014-06-24 16:09:26,665    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6d6d22c with url:/>'
+2014-06-24 16:09:26,665    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6d6d22c with url:/>'
+2014-06-24 16:09:26,666    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:09:26,666    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:09:26,666    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:09:26,666    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:09:26,666    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:26,666    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:26,666    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:09:26,667    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:09:26,667    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:09:26,667    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:09:26,667    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6d6d52c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:09:26,668    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6d6d52c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:09:26,668    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d6d3ac with url:/testService2/testobject>' 
+2014-06-24 16:09:26,668    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6d6d32c with url:/testService2>' 
+2014-06-24 16:09:26,668    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6d6d32c with url:/testService2>'
+2014-06-24 16:09:26,668    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6d6d32c with url:/testService2>'
+2014-06-24 16:09:26,668    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:09:26,668    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6d6d52c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:09:26,669    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6d6d52c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:09:26,669    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d6d3ac with url:/testService2/testobject>' 
+2014-06-24 16:09:26,669    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6d6d32c with url:/testService2>' 
+2014-06-24 16:09:26,669    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6d6d32c with url:/testService2>'
+2014-06-24 16:09:26,669    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6d6d32c with url:/testService2>'
+2014-06-24 16:09:26,669    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6d6d42c with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6e629cc> 
+2014-06-24 16:09:26,669    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d6d42c with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:09:26,669    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d6d3ac with url:/testService2/testobject>' 
+2014-06-24 16:09:26,670    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6d6d32c with url:/testService2>' 
+2014-06-24 16:09:26,670    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d6d22c with url:/>' 
+2014-06-24 16:09:26,670    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6d6d22c with url:/>'
+2014-06-24 16:09:26,670    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6d6d22c with url:/>'
+2014-06-24 16:09:26,670    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6d6d22c with url:/>' by validator:  <function root_folder_validator at 0xb6e629cc> 
+2014-06-24 16:09:26,670    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d6d22c with url:/>' 
+2014-06-24 16:09:26,670    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6d6d22c with url:/>'
+2014-06-24 16:09:26,670    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6d6d22c with url:/>'
+2014-06-24 16:09:26,671    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6d6d22c with url:/>' by validator:  <function root_folder_validator at 0xb6e629cc> 
+2014-06-24 16:09:26,671    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d6d22c with url:/>' 
+2014-06-24 16:09:26,671    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6d6d22c with url:/>'
+2014-06-24 16:09:26,671    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6d6d22c with url:/>'
+2014-06-24 16:09:26,671    DEBUG root - fdfdsf fdsfsdf
+2014-06-24 16:09:26,671    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:09:26,672    ERROR twsfolders-test - this is an error
+2014-06-24 16:09:26,672     INFO twsfolders-test - finish
+2014-06-24 16:09:26,672  WARNING twsfolders-test - this is a worning
+2014-06-24 16:09:26,672  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:09:26,673    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:26,673    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:26,673    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:26,674    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:09:26,676    DEBUG txn.-1219307200 - commit <Connection at b6d7590c>
+2014-06-24 16:09:26,676    DEBUG txn.-1219307200 - commit
+2014-06-24 16:09:26,676    DEBUG twsfolders-test - close connection
+2014-06-24 16:09:26,676    DEBUG txn.-1219307200 - new transaction
+2014-06-24 16:09:26,676    DEBUG txn.-1219307200 - abort
+2014-06-24 16:09:43,949    DEBUG txn.-1219024576 - new transaction
+2014-06-24 16:09:43,949    DEBUG twsfolders-test - start test
+2014-06-24 16:09:43,950    DEBUG txn.-1219024576 - new transaction
+2014-06-24 16:09:43,950    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6db222c with url:/>' by validator:  <function root_folder_validator at 0xb6ea79cc> 
+2014-06-24 16:09:43,951    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6db222c with url:/>' 
+2014-06-24 16:09:43,951    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6db222c with url:/>'
+2014-06-24 16:09:43,951    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6db222c with url:/>'
+2014-06-24 16:09:43,951    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:09:43,951    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:09:43,951    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:09:43,952    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:09:43,952    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:43,952    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:43,952    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:09:43,952    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:09:43,952    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:09:43,953    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:09:43,953    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6db252c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:09:43,953    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6db252c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:09:43,953    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6db23ac with url:/testService2/testobject>' 
+2014-06-24 16:09:43,954    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6db232c with url:/testService2>' 
+2014-06-24 16:09:43,954    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6db232c with url:/testService2>'
+2014-06-24 16:09:43,954    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6db232c with url:/testService2>'
+2014-06-24 16:09:43,954    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:09:43,954    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6db252c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:09:43,954    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6db252c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:09:43,955    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6db23ac with url:/testService2/testobject>' 
+2014-06-24 16:09:43,955    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6db232c with url:/testService2>' 
+2014-06-24 16:09:43,955    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6db232c with url:/testService2>'
+2014-06-24 16:09:43,955    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6db232c with url:/testService2>'
+2014-06-24 16:09:43,955    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6db242c with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6ea79cc> 
+2014-06-24 16:09:43,955    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6db242c with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:09:43,956    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6db23ac with url:/testService2/testobject>' 
+2014-06-24 16:09:43,956    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6db232c with url:/testService2>' 
+2014-06-24 16:09:43,956    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6db222c with url:/>' 
+2014-06-24 16:09:43,956    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6db222c with url:/>'
+2014-06-24 16:09:43,956    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6db222c with url:/>'
+2014-06-24 16:09:43,956    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6db222c with url:/>' by validator:  <function root_folder_validator at 0xb6ea79cc> 
+2014-06-24 16:09:43,956    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6db222c with url:/>' 
+2014-06-24 16:09:43,956    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6db222c with url:/>'
+2014-06-24 16:09:43,957    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6db222c with url:/>'
+2014-06-24 16:09:43,957    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6db222c with url:/>' by validator:  <function root_folder_validator at 0xb6ea79cc> 
+2014-06-24 16:09:43,957    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6db222c with url:/>' 
+2014-06-24 16:09:43,957    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6db222c with url:/>'
+2014-06-24 16:09:43,957    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6db222c with url:/>'
+2014-06-24 16:09:43,957    DEBUG root - fdfdsf fdsfsdf
+2014-06-24 16:09:43,957    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:09:43,958    ERROR twsfolders-test - this is an error
+2014-06-24 16:09:43,958     INFO twsfolders-test - finish
+2014-06-24 16:09:43,958  WARNING twsfolders-test - this is a worning
+2014-06-24 16:09:43,958  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:09:43,959    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:43,959    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:43,959    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:09:43,960    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:09:43,962    DEBUG txn.-1219024576 - commit <Connection at b6dba92c>
+2014-06-24 16:09:43,962    DEBUG txn.-1219024576 - commit
+2014-06-24 16:09:43,962    DEBUG twsfolders-test - close connection
+2014-06-24 16:09:43,963    DEBUG txn.-1219024576 - new transaction
+2014-06-24 16:09:43,963    DEBUG txn.-1219024576 - abort
+2014-06-24 16:12:18,235    DEBUG txn.-1219090112 - new transaction
+2014-06-24 16:12:18,235    DEBUG twsfolders-test - start test
+2014-06-24 16:12:18,236    DEBUG txn.-1219090112 - new transaction
+2014-06-24 16:12:18,237    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6eaa06c with url:/>' by validator:  <function root_folder_validator at 0xb6e97a3c> 
+2014-06-24 16:12:18,237    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6eaa06c with url:/>' 
+2014-06-24 16:12:18,237    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6eaa06c with url:/>'
+2014-06-24 16:12:18,237    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6eaa06c with url:/>'
+2014-06-24 16:12:18,237    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:12:18,237    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:12:18,238    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:12:18,238    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:12:18,238    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:12:18,238    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:12:18,238    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:12:18,238    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:12:18,239    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:12:18,239    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:12:18,239    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6eaa42c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:12:18,240    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6eaa42c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:12:18,240    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6eaa0ec with url:/testService2/testobject>' 
+2014-06-24 16:12:18,240    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6eaa22c with url:/testService2>' 
+2014-06-24 16:12:18,240    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6eaa22c with url:/testService2>'
+2014-06-24 16:12:18,240    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6eaa22c with url:/testService2>'
+2014-06-24 16:12:18,240    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:12:18,240    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6eaa42c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:12:18,241    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6eaa42c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:12:18,241    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6eaa0ec with url:/testService2/testobject>' 
+2014-06-24 16:12:18,241    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6eaa22c with url:/testService2>' 
+2014-06-24 16:12:18,241    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6eaa22c with url:/testService2>'
+2014-06-24 16:12:18,241    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6eaa22c with url:/testService2>'
+2014-06-24 16:12:18,241    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6eaa1ac with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6e97a3c> 
+2014-06-24 16:12:18,242    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6eaa1ac with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:12:18,242    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6eaa0ec with url:/testService2/testobject>' 
+2014-06-24 16:12:18,242    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6eaa22c with url:/testService2>' 
+2014-06-24 16:12:18,242    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6eaa06c with url:/>' 
+2014-06-24 16:12:18,242    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6eaa06c with url:/>'
+2014-06-24 16:12:18,242    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6eaa06c with url:/>'
+2014-06-24 16:12:18,243    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6eaa06c with url:/>' by validator:  <function root_folder_validator at 0xb6e97a3c> 
+2014-06-24 16:12:18,243    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6eaa06c with url:/>' 
+2014-06-24 16:12:18,243    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6eaa06c with url:/>'
+2014-06-24 16:12:18,243    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6eaa06c with url:/>'
+2014-06-24 16:12:18,243    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6eaa06c with url:/>' by validator:  <function root_folder_validator at 0xb6e97a3c> 
+2014-06-24 16:12:18,243    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6eaa06c with url:/>' 
+2014-06-24 16:12:18,243    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6eaa06c with url:/>'
+2014-06-24 16:12:18,243    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6eaa06c with url:/>'
+2014-06-24 16:12:18,244    DEBUG root - fdfdsf fdsfsdf
+2014-06-24 16:12:18,244    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:12:18,244    ERROR twsfolders-test - this is an error
+2014-06-24 16:12:18,245     INFO twsfolders-test - finish
+2014-06-24 16:12:18,245  WARNING twsfolders-test - this is a worning
+2014-06-24 16:12:18,245  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:12:18,245    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:12:18,246    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:12:18,246    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:12:18,246    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:12:18,248    DEBUG txn.-1219090112 - commit <Connection at b6da6eac>
+2014-06-24 16:12:18,249    DEBUG txn.-1219090112 - commit
+2014-06-24 16:12:18,249    DEBUG twsfolders-test - close connection
+2014-06-24 16:12:18,249    DEBUG txn.-1219090112 - new transaction
+2014-06-24 16:12:18,249    DEBUG txn.-1219090112 - abort
+2014-06-24 16:19:21,201    DEBUG txn.-1219126976 - new transaction
+2014-06-24 16:19:21,201    DEBUG twsfolders-test - start test
+2014-06-24 16:19:21,202    DEBUG txn.-1219126976 - new transaction
+2014-06-24 16:19:21,202    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6d9822c with url:/>' by validator:  <function root_folder_validator at 0xb6e8ca74> 
+2014-06-24 16:19:21,202    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d9822c with url:/>' 
+2014-06-24 16:19:21,203    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6d9822c with url:/>'
+2014-06-24 16:19:21,203    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6d9822c with url:/>'
+2014-06-24 16:19:21,203    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:19:21,203    DEBUG twsfolders - get_item - item testService do not exist
+2014-06-24 16:19:21,203    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:19:21,204    DEBUG twsfolders - get_item - item testService2 do not exist
+2014-06-24 16:19:21,204    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:19:21,204    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:19:21,204    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:19:21,204    DEBUG twsfolders - get_item - item testobject2 do not exist
+2014-06-24 16:19:21,205    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:19:21,205    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:19:21,205    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6d9852c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:19:21,206    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6d9852c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:19:21,206    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d983ac with url:/testService2/testobject>' 
+2014-06-24 16:19:21,206    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6d9832c with url:/testService2>' 
+2014-06-24 16:19:21,206    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6d9832c with url:/testService2>'
+2014-06-24 16:19:21,206    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6d9832c with url:/testService2>'
+2014-06-24 16:19:21,206    DEBUG twsfolders - get_item - item тестобъект do not exist
+2014-06-24 16:19:21,206    DEBUG twsfolders - get_parent_by_validator - get parent from item: u'<folder.Folder object at 0xb6d9852c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' by validator:  <InterfaceClass __main__.IService> 
+2014-06-24 16:19:21,206    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: u'<folder.Folder object at 0xb6d9852c with url:/testService2/testobject/\u0442\u0435\u0441\u0442\u043e\u0431\u044a\u0435\u043a\u0442>' 
+2014-06-24 16:19:21,207    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d983ac with url:/testService2/testobject>' 
+2014-06-24 16:19:21,207    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6d9832c with url:/testService2>' 
+2014-06-24 16:19:21,207    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<__main__.Service object at 0xb6d9832c with url:/testService2>'
+2014-06-24 16:19:21,207    DEBUG twsfolders - get_parent_by_validator - return: '<__main__.Service object at 0xb6d9832c with url:/testService2>'
+2014-06-24 16:19:21,207    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6d9842c with url:/testService2/testobject/testobject2>' by validator:  <function root_folder_validator at 0xb6e8ca74> 
+2014-06-24 16:19:21,207    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d9842c with url:/testService2/testobject/testobject2>' 
+2014-06-24 16:19:21,207    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d983ac with url:/testService2/testobject>' 
+2014-06-24 16:19:21,208    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<__main__.Service object at 0xb6d9832c with url:/testService2>' 
+2014-06-24 16:19:21,208    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d9822c with url:/>' 
+2014-06-24 16:19:21,208    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6d9822c with url:/>'
+2014-06-24 16:19:21,208    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6d9822c with url:/>'
+2014-06-24 16:19:21,208    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6d9822c with url:/>' by validator:  <function root_folder_validator at 0xb6e8ca74> 
+2014-06-24 16:19:21,208    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d9822c with url:/>' 
+2014-06-24 16:19:21,208    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6d9822c with url:/>'
+2014-06-24 16:19:21,208    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6d9822c with url:/>'
+2014-06-24 16:19:21,209    DEBUG twsfolders - get_parent_by_validator - get parent from item: '<folder.Folder object at 0xb6d9822c with url:/>' by validator:  <function root_folder_validator at 0xb6e8ca74> 
+2014-06-24 16:19:21,209    DEBUG twsfolders - get_parent_by_validator -  ... look parent_item: '<folder.Folder object at 0xb6d9822c with url:/>' 
+2014-06-24 16:19:21,209    DEBUG twsfolders - get_parent_by_validator -  ... parent_item validated by interface: '<folder.Folder object at 0xb6d9822c with url:/>'
+2014-06-24 16:19:21,209    DEBUG twsfolders - get_parent_by_validator - return: '<folder.Folder object at 0xb6d9822c with url:/>'
+2014-06-24 16:19:21,209    DEBUG root - fdfdsf fdsfsdf
+2014-06-24 16:19:21,209    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:19:21,210    ERROR twsfolders-test - this is an error
+2014-06-24 16:19:21,210     INFO twsfolders-test - finish
+2014-06-24 16:19:21,210  WARNING twsfolders-test - this is a worning
+2014-06-24 16:19:21,210  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:19:21,211    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:19:21,211    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:19:21,212    DEBUG twsfolders - get_item - item testobject do not exist
+2014-06-24 16:19:21,212    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:19:21,214    DEBUG txn.-1219126976 - commit <Connection at b6d9ea2c>
+2014-06-24 16:19:21,214    DEBUG txn.-1219126976 - commit
+2014-06-24 16:19:21,214    DEBUG twsfolders-test - close connection
+2014-06-24 16:19:21,215    DEBUG txn.-1219126976 - new transaction
+2014-06-24 16:19:21,215    DEBUG txn.-1219126976 - abort

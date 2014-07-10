@@ -1,0 +1,89 @@
+2014-06-24 14:39:31,059    DEBUG twsfolders-test - start test
+2014-06-24 14:39:31,074    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 14:39:31,074    ERROR twsfolders-test - this is an error
+2014-06-24 14:39:31,075     INFO twsfolders-test - finish
+2014-06-24 14:39:31,075  WARNING twsfolders-test - this is a worning
+2014-06-24 14:39:31,075  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 14:39:31,076    DEBUG twsfolders-test - commit transaction
+2014-06-24 14:39:31,079    DEBUG twsfolders-test - close connection
+2014-06-24 16:03:20,828    DEBUG twsfolders-test - start test
+2014-06-24 16:03:20,835    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:03:20,835    ERROR twsfolders-test - this is an error
+2014-06-24 16:03:20,835     INFO twsfolders-test - finish
+2014-06-24 16:03:20,836  WARNING twsfolders-test - this is a worning
+2014-06-24 16:03:20,836  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:03:20,837    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:03:20,840    DEBUG twsfolders-test - close connection
+2014-06-24 16:04:10,121    DEBUG twsfolders-test - start test
+2014-06-24 16:05:00,162    DEBUG twsfolders-test - start test
+2014-06-24 16:05:37,203    DEBUG twsfolders-test - start test
+2014-06-24 16:06:35,166    DEBUG twsfolders-test - start test
+2014-06-24 16:06:46,652    DEBUG twsfolders-test - start test
+2014-06-24 16:07:13,986    DEBUG twsfolders-test - start test
+2014-06-24 16:07:22,915    DEBUG twsfolders-test - start test
+2014-06-24 16:09:11,803    DEBUG twsfolders-test - start test
+2014-06-24 16:09:11,810    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:09:11,810    ERROR twsfolders-test - this is an error
+2014-06-24 16:09:11,810     INFO twsfolders-test - finish
+2014-06-24 16:09:11,810  WARNING twsfolders-test - this is a worning
+2014-06-24 16:09:11,811  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:09:26,664    DEBUG twsfolders-test - start test
+2014-06-24 16:09:26,671    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:09:26,672    ERROR twsfolders-test - this is an error
+2014-06-24 16:09:26,672     INFO twsfolders-test - finish
+2014-06-24 16:09:26,672  WARNING twsfolders-test - this is a worning
+2014-06-24 16:09:26,672  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:09:26,674    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:09:26,676    DEBUG twsfolders-test - close connection
+2014-06-24 16:09:43,949    DEBUG twsfolders-test - start test
+2014-06-24 16:09:43,957    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:09:43,958    ERROR twsfolders-test - this is an error
+2014-06-24 16:09:43,958     INFO twsfolders-test - finish
+2014-06-24 16:09:43,958  WARNING twsfolders-test - this is a worning
+2014-06-24 16:09:43,958  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:09:43,960    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:09:43,962    DEBUG twsfolders-test - close connection
+2014-06-24 16:12:18,235    DEBUG twsfolders-test - start test
+2014-06-24 16:12:18,244    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:12:18,244    ERROR twsfolders-test - this is an error
+2014-06-24 16:12:18,245     INFO twsfolders-test - finish
+2014-06-24 16:12:18,245  WARNING twsfolders-test - this is a worning
+2014-06-24 16:12:18,245  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:12:18,246    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:12:18,249    DEBUG twsfolders-test - close connection
+2014-06-24 16:19:21,201    DEBUG twsfolders-test - start test
+2014-06-24 16:19:21,209    ERROR twsfolders-test - integer division or modulo by zero
+Traceback (most recent call last):
+  File "/home/dl/projects/py/github/twsfolders/twsfolders/test1.py", line 165, in test
+    a = 1/0
+ZeroDivisionError: integer division or modulo by zero
+2014-06-24 16:19:21,210    ERROR twsfolders-test - this is an error
+2014-06-24 16:19:21,210     INFO twsfolders-test - finish
+2014-06-24 16:19:21,210  WARNING twsfolders-test - this is a worning
+2014-06-24 16:19:21,210  WARNING twsfolders-test - cancelled 125.225.55 user
+2014-06-24 16:19:21,212    DEBUG twsfolders-test - commit transaction
+2014-06-24 16:19:21,214    DEBUG twsfolders-test - close connection

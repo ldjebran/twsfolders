@@ -1,0 +1,10 @@
+build
+dist
+twsfolders-info
+*.wpr
+*.pyc
+*.pyo
+.idea
+docs
+build_doc.sh
+setup_bdist_egg_upload.sh
