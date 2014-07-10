@@ -13,7 +13,7 @@ from twsfolders.folder import Folder
 
 
 from application import Application
-from application import application_folders_validator
+from application import application_folders_validator, IApplication, IApplicationService
 
 
 class FoldersTestCase(unittest.TestCase):
@@ -27,7 +27,7 @@ class FoldersTestCase(unittest.TestCase):
     def get_folders(self, validator=None):
         return RootFolders(self.connection, validator=validator)
 
-    def test_folders_validator(self):
+    def test_folders_validator_callable(self):
         application_folders = self.get_folders(validator=application_folders_validator)
         app = Application(name='app')
 
@@ -35,9 +35,19 @@ class FoldersTestCase(unittest.TestCase):
 
         self.assertIn('app', application_folders)
 
-        application_folders = self.get_folders(validator=application_folders_validator)
         folder = Folder(name='folder')
 
+        self.assertRaises(ValidatorRefusedError, application_folders.add_item, folder)
+
+    def test_folders_validator_interface(self):
+        application_folders = self.get_folders(validator=IApplication)
+        app = Application(name='app')
+
+        application_folders.add_item(app)
+
+        self.assertIn('app', application_folders)
+
+        folder = Folder(name='folder')
         self.assertRaises(ValidatorRefusedError, application_folders.add_item, folder)
 
     def test_folders_add_non_folder(self):

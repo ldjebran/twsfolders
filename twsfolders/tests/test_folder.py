@@ -29,7 +29,7 @@ class FolderTestCase(unittest.TestCase):
         # todo
         application = self.get_folders_three()
 
-        print application.list_items()
+        #print application.list_items()
 
         self.assertTrue(True)
 

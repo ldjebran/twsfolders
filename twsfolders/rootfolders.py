@@ -22,7 +22,7 @@ from interface import IRootFolders
 
 from folder import Folder
 
-from prefixes import URL_SEPARATOR
+from prefixes import URL_SEPARATOR, is_interface, validate_item
 
 
 class RootAlreadyExistError(Exception):
@@ -34,6 +34,10 @@ class RootDoNotExistError(Exception):
 
 
 class ValidatorRefusedError(Exception):
+    """ Root already exist."""
+
+
+class NotExceptableValidatorError(Exception):
     """ Root already exist."""
 
 
@@ -52,6 +56,9 @@ class RootFolders(object):
             raise TypeError('validator must be callable')
 
         self.__root = connection.root()
+
+        if validator is not None and not callable(validator) and not is_interface(validator):
+            raise NotExceptableValidatorError('Validator must a callable or zope.interface')
 
         self.validator = validator
 
@@ -107,7 +114,8 @@ class RootFolders(object):
             # it's important to raise this error
             raise AttributeError('Root folder must have no parent')
 
-        if self.validator and not self.validator(item):
+        #if self.validator and not self.validator(item):
+        if self.validator and not validate_item(item, self.validator):
             raise ValidatorRefusedError('Root folder %s - refused by folders validator' % type(item))
 
         # Plug the root folder in zodb storage connection root

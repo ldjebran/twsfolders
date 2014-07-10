@@ -15,7 +15,7 @@ class ApplicationServiceItemTypeError(Exception):
 class IApplication(Interface):
     pass
 
-
+@implementer(IApplication)
 class Application(Folder):
     """ any item of Application must be of type Service"""
 
