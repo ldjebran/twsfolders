@@ -64,7 +64,7 @@ class Item(Persistent):
 
     def __repr__(self):
         class_ = self.__class__
-        return repr('<%s.%s object at %#x with id:"%s: url:"%s">' % (class_.__module__, class_.__name__,
+        return repr('<%s.%s object at %#x with id:"%s" url:"%s">' % (class_.__module__, class_.__name__,
                                                                      id(self), self.id, self.url()
                                                                      )
                     )
